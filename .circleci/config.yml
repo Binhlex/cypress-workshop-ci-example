@@ -11,7 +11,7 @@ workflows:
           start: npm start
           wait-on: 'http://localhost:8080'
           no-workspace: true
-          record: true
+          record: false
           tags: circleci
           parallel: true
           parallelism: 3
